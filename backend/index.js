@@ -16,7 +16,7 @@ app.use('/api',router)
 //use error middleware at the end
 app.use(handleErrors)
 
-const PORT = 80;
+const PORT = 8001;
 app.listen(PORT, () => {
   console.log(`server is running on port http://localhost:${PORT}`);
 });
